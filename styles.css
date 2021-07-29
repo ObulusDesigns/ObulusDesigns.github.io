@@ -1185,3 +1185,10 @@ width: 100%;
     flex: 50%;
   }
 }
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
