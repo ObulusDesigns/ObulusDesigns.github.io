@@ -212,6 +212,7 @@ background: linear-gradient(90deg, rgba(29,228,202,1) 0%, rgba(0,65,255,1) 100%)
   font-size: 100px;
   margin-bottom: 24px;
   color:#fff;
+  word-wrap: break-word;
 }
 
 .hero__heading span {
