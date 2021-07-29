@@ -1188,9 +1188,9 @@ width: 100%;
   }
 }
 
-html, body {
+/* html, body {
   overflow-x: hidden;
-}
+} */
 body {
   position: relative
 }
