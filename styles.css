@@ -465,6 +465,17 @@ grid-gap: 20px;
   color: #fff;
 
 }
+@media screen and (max-width: 480px) {
+  .grid-child {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-small;
+    }
+  .grid-container{
+    font-size: 120%;
+    grid-gap: 10px;
+  }
+  } 
 
 #our_work .caption {
   background: linear-gradient(90deg, rgba(29,228,202,1) 0%, rgba(0,65,255,1) 100%);
