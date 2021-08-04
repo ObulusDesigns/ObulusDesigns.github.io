@@ -1193,12 +1193,7 @@ width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  html, body {
-    overflow-x: hidden;
-  }
-  body {
-    position: relative
-  }
+
   
   #text__logo {
     display: block;
@@ -1208,7 +1203,21 @@ width: 100%;
   .hero__heading {
     display: none;
   }
+
+  /* html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  } */
 }
+
+ #site__content {
+    overflow-x: hidden;
+  } 
+   #site__content {
+    position: relative
+  }
 
 
 
