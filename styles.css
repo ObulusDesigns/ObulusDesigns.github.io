@@ -515,7 +515,7 @@ align-items: center;
 }
 
 .footer__description {
-  font-size: 60px;
+  font-size: 30px;
   background: #fff;
   background-size: 100%;
   -webkit-background-clip: text;
@@ -536,18 +536,6 @@ align-items: center;
   }
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 #footer__logo {
 color: #fff;
@@ -1268,7 +1256,12 @@ width: 100%;
 #text__logo{
   display: none;
 }
-
+#footer__text__logo{
+  display:flex;
+  height: 225px;
+  margin-top: 10px;
+  margin-bottom: 50px; 
+}
 @media screen and (max-width: 768px) {
   #text__logo {
     display: block;
