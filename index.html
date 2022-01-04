@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obulus Designs</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <link
       href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Montserrat:300,400,600"
@@ -19,7 +22,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="Logo Cropped.png" />
 </head>
 
 <body>
@@ -28,7 +30,7 @@
         <div class="navbar__container">
             <a href="#home" id="navbar__logo">
                 <img src='Logo Cropped.png' width="60px" height="60px">
-                Obulus Designs
+                Obulus Designs 
             </a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -60,12 +62,12 @@
         </div>
 
     </nav>
+
     <!-- Hero Section -->
     <div class="hero" id="home">
-        <div class="hero__container">
-            <h1 class="hero__heading"> <span>Obulus Designs</span> </h1>
-            <img id="text__logo" src="Text Logo.png">
-            <p class="hero__description">Unlimited Creativity</p>
+        <div class="hero__container" data-aos="zoom-in" data-aos-duration="700">
+            <h1 class="hero__heading" > <span>Obulus Designs</span> </h1>
+            <p class="hero__description" >Unlimited Creativity</p>
             <button class="main__btn"><a href="#about_us">Explore</a></button>
         </div>
     </div>
@@ -81,7 +83,7 @@
             </div>    -->
 
             <div class="main__content">
-                <h2>We are web design & digital freedom, simplified.</h2>
+                <h2 data-aos="fade-right" data-aos-duration="600">We are web design & digital freedom, simplified.</h2>
                 <br />
                 <br />
                 <br />
@@ -99,7 +101,7 @@
 
             <div class="grid-container">
 
-                <div class="grid-child 1">
+                <div class="grid-child 1" data-aos="zoom-in" data-aos-duration = "750">
 
                     <br/>
                     <img src="Design.png" width="60"
@@ -114,7 +116,7 @@
                         can look great on any device. </p>
                         <br/> 
                 </div>
-                <div class="grid-child 2">
+                <div class="grid-child 2" data-aos="zoom-in" data-aos-duration = "750">
                     <br/>
                     <img src="Renovation.png" width="60"
                         height="50">
@@ -134,7 +136,7 @@
 
             <div class="grid-container">
 
-                <div class="grid-child 3">
+                <div class="grid-child 3" data-aos="zoom-in" data-aos-duration = "750">
                     <br/>
                     <img src="Hosting.png" width="60"
                         height="50">
@@ -147,7 +149,7 @@
                     <!-- color:rgb(96, 96, 99); -->
                 </div>
 
-                <div class="grid-child 4">
+                <div class="grid-child 4" data-aos="zoom-in" data-aos-duration = "750">
                     <br/>
                     <img src="Security.png" width="60" height="70">
                     <br />
@@ -190,7 +192,7 @@
     </br>
     
     <div class="pricing-table">
-        <div class="pricing-card">
+        <div class="pricing-card" data-aos="flip-right" data-aos-duration="500">
           <h3 class="pricing-card-header">WEB DESIGN</h3>
           <div class="price"><sup>$</sup>25<span>/page</span></div>
           <ul>
@@ -203,7 +205,7 @@
           <a href="#contact_us" class="order-btn">Contact</a>
         </div>
        
-            <div class="pricing-card">
+            <div class="pricing-card" data-aos="flip-right" data-aos-duration="500">
               <h3 class="pricing-card-header">WEB RENOVATION</h3>
               <div class="price"><sup>$</sup>20<span>/page</span></div>
               <ul>
@@ -216,7 +218,7 @@
               <a href="#contact_us" class="order-btn">Contact</a>
             </div>
 
-                <div class="pricing-card">
+                <div class="pricing-card" data-aos="flip-right" data-aos-duration="500" >
                   <h3 class="pricing-card-header">WEB HOSTING</h3>
                   <div class="price"><sup>$</sup>15<span>/MO</span></div>
                   <ul>
@@ -231,35 +233,35 @@
 </div>
 <div id='submit__container'>
     <!--<button class="main__btn2"><a href="#contact_us">Contact Now</a></button> -->
-    <a href="#contact_us" class="order-btn">Contact Now</a>
+    <a href="#contact_us" class="order-btn" data-aos="zoom-in">Contact Now</a>
 </div>
 </div>
     <!-- Our Work Section -->
     <div class="main" id="our_work">
         <div class="main__container">
             <div class="main__content">
-                <h1 class="about__heading"><span>Our Work</span> </h1>
-                <p class = caption> Hover Over the Underlined Text to See the Website </p>
+                <h1 class="about__heading" data-aos="flip-left" data-aos-duration="700"><span">Our Work</span> </h1>
+                <p class = caption data-aos="fade-left" data-aos-duration="700"> Hover Over the Underlined Text to See the Website </p>
                 <br/>
-                <div id="our__work__box">
+                <div id="our__work__box" data-aos="fade-left" data-aos-duration="700">
                     <div class="link__container">
 
                         <br />
 
                         <p>One Stop Environmental</p>
                         <br/>
-                        <a href="" id="link__one__home" class="page__link">Home</a>
-                         <a href="" id="link__one__about" class="page__link">Serices</a> 
+                        <a href="" id="link__one__home" class="page__link">Services</a>
+                        <!-- <a href="" id="link__one__about" class="page__link">About Us</a> -->
                         <a href="" id="link__one__services" class="page__link">Contact</a>
                         <a href="" id="link__one__contact" class="page__link">Footer</a>
                         <br/>
-                        <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">One Stop Environmental was made for a small business landscaping company located in Mercer County, New Jersey. </p>
+                        <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">One Stop Environmental was made for a small business landscaping company located in Mercer county, New Jersey. </p>
                         <br/><br/><br/><br/><br/><br/>
                         <img id="website__picture__one"
-                            src="Home.png"
+                            src="Website 1.png"
                              width=480px height=270px>
                         <img id="website__picture__two"
-                            src="Services.png"
+                            src="Website 3.png"
                             width=480px height=270px
                             >
                             <img id="website__picture__three"
@@ -287,10 +289,10 @@
     <!-- Contact Us -->
 
     <div class="main" id="contact_us">
-        <div class="main__container">
+        <div class="main__container" data-aos="zoom-in">
             <div class="main__content">
                 <h1 class="about__heading"><span> Contact Us</span></h1>
-                <p class = "caption"> Fill up the form below to schedule an appointment for a FREE Consultation
+                <p class = "caption"> Fill up the form below to schedule an appointment for FREE Consultation
                 </p>
 
 
@@ -329,7 +331,7 @@
                         <div id="submit__container">
                             <button type="submit" class="main__btn2"><span>Submit</span></button>
 
-                            <input type="hidden" name="_next" value="https://obulusdesigns.github.io/thankyou.html">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
                             <input type="hidden" name="_captcha" value="false">
                         </div>
 
@@ -379,8 +381,7 @@
         <section class="social__media">
             <div class="social__media--wrap">
                 <div class="footer__logo">
-                    <h1 class="footer__heading"> <span>Obulus Designs</span> </h1>
-                    <img id="footer__text__logo" src="Text Logo.png">
+                    <h1 class="hero__heading" id="footer_logo"> <span>Obulus Designs</span> </h1>
                 </div>
                 <p class="website__rights">  © Copyright Obulus Designs 2021, All rights reserved.</p>
                
@@ -394,6 +395,12 @@
     </div>
 
     <script src="app.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
